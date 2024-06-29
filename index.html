@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up & Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="row main mt-5" id="main">
+
+
+            <!-- Sign Up Form -->
+
+            <div class="col-md-6 p-5 form-container" id="signUp">
+
+
+                <h1 class="display-4 text-center glowing-text"> "WELCOME" TO (SJT) SIGNUP </h1>
+
+                <form class="d-flex justify-content mt-4">
+                    <div class="w-75">
+                        <div class="form-group">
+                            <label for="signupEmail">Email</label>
+                            <input type="email" id="signupEmail" required>
+                        </div>
+                        <div class="form-group my-4">
+                            <label for="signupPassword">Password</label>
+                            <input type="password" id="signupPassword" required>
+                        </div>
+                        <button type="submit" id="registerBtn">Register</button>
+                        <div class="d-flex justify-content-between mt-5">
+                            <a href="#" class="links" id="loginLink">Already have an Account?</a>
+                        </div>
+                        <div id="overallsignupres"></div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Login Form -->
+            <div class="col-md-6 p-5 form-container" id="login">
+                <h1 class="display-4 text-center glowing-text">"WELCOME" TO (SJT) LOGIN</h1>
+
+                <form class="d-flex justify-content mt-4">
+                    <div class="w-75">
+                        <div class="form-group">
+                            <label for="loginEmail">Email</label>
+                            <input type="email" id="loginEmail" required>
+                        </div>
+                        <div class="form-group my-4">
+                            <label for="loginPassword">Password</label>
+                            <input type="password" id="loginPassword" required>
+                        </div>
+                        <button type="submit" id="loginBtn">login</button>
+                        <div class="d-flex justify-content-between mt-5">
+                            <a href="#" class="links" id="registerLink">Create an Account</a>
+                        </div>
+                        <div id="overallloginres"></div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
